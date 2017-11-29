@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Pops Pizza</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  
+  <Style>
+	
+	body {
+	background: url("https://images6.alphacoders.com/412/412086.jpg");
+	background-size: cover;
+	}
+	
+	
+	
+	.flex-container {
+    flex-direction: column;
+	margin: 1em;
+	display: flex;
+    display: flex;
+    width: 200px;
+    height: 150px;
+    color: white;
+	background-color:rgba(0, 160, 141, 0.5);
+}
+
+.flex-container1 {
+	flex-direction: column;
+	margin: 1em;   
+	display: flex; 
+    display: flex;
+    width: 200px;
+    height: 225px;
+    color: white;
+	background-color:rgba(0, 160, 141, 0.5);
+}
+
+.flex-container2 {
+    flex-direction: column;
+	margin: 1em;
+	display: flex;
+    display: flex;
+    width: 200px;
+    height: 100px;
+    color: white;
+	background-color:rgba(0, 160, 141, 0.5);
+}
+	
+.flex-container3 {
+    flex-direction: column;
+	margin: 1em;
+	display: flex;
+    display: flex;
+    width: 250px;
+    height: 170px;
+    color: white;
+	
+	background-color:rgba(0, 160, 141, 0.5);
+}
+
+.flex-container4 {
+    flex-direction: column;
+	margin: 1em;
+	display: flex;
+    display: flex;
+    width: 200px;
+    height: 250px;
+    color: white;
+	background-color:rgba(0, 160, 141, 0.5);
+}
+
+.flex-container5 {
+    flex-direction: column;
+	margin: 1em;
+	display: flex;
+    display: flex;
+    width: 200px;
+    height: 125px;
+    color: white;
+	background-color:rgba(0, 160, 141, 0.5);
+}
+
+.btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.btn-success {
+    flex-direction: column;
+	margin: 1em;
+	display: flex;
+    display: flex;
+    width: 300px;
+    height: 50px;
+    background-color: #074702;
+}
+
+.background {
+
+	background-size: auto;
+	border: 2px;
+	}
+
+td:empty:after {
+    content: 'None Selected';
+    color: #7a7a7a;
+}
+  </Style>
+  
+  </head>
+  
+   <h1 style="color:white; margin-left:.5em;"><Strong>Pops Pizza</Strong></h1>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="..\JavaScript.js"></script>
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+ 
+   <!----------------------  Size ------------------>
+ 
+	<br>
+	<br>
+	
+	<h3 style="color:white; margin-left:1em;">Size</h3>
+	<div class="Size">
+	<div class="flex-container">
+	<div class="form-check">
+  <label class="form-check-label">
+    <input class="size" type="radio" name="Size" id="psize" value="Personal Pizza" checked>
+    Personal ($6.00)
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input class="size" type="radio" name="Size" id="msize" value="Medium Pizza">
+    Medium ($10.00)
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input class="size" type="radio" name="Size" id="lsize" value="Large Pizza">
+    Large ($14.00)
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input class="size" type="radio" name="Size" id="xlsize" value="Extra Large Pizza">
+    Extra Large ($16.00)
+  </label>
+
+  </div>
+	</div>
+	</div>
+  <!----------------------  Meat ------------------>
+
+<br>
+<br>
+
+<h3  style="color:white; margin-left:1em;">Meat</h3>
+<div class="meat">
+<p style="color:white; margin-left:1.75em;"> First choice complimentary, than add $1 per choice </p>
+<div class="flex-container1">
+<div class="form-check">
+  <label class="form-check-label">
+    <input class="meat" type="checkbox" name="meat" id="pep" value="Pepperoni">
+    Pepperoni
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input class="meat" type="checkbox" name="meat" id="saus" value="Sausage">
+    Sausage
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input class="meat" type="checkbox" name="meat" id="bacon" value="Canadian Bacon">
+    Canadian Bacon
+  </label>
+</div>
+
+<div class="form-check">
+  <label class="form-check-label">
+    <input class="meat" type="checkbox" name="meat" id="beef" value="Ground Beef">
+    Ground Beef
+  </label>
+</div>
+
+<div class="form-check">
+  <label class="form-check-label">
+    <input class="meat" type="checkbox" name="meat" id="fish" value="Anchovey">
+    Anchovey
+  </label>
+</div>
+
+<div class="form-check">
+  <label class="form-check-label">
+    <input class="meat" type="checkbox" name="meat" id="chicken" value="Chicken">
+    Chicken
+  </label>
+</div>
+</div>
+</div>
+  <!----------------------  Cheese ------------------>
+
+<br><br>
+
+<h3  style="color:white; margin-left:1em;">Cheese</h3>
+<div class="Cheese">
+<div class="flex-container2">
+<div class="form-check">
+  <label class="form-check-label">
+    <input class="cheese" type="radio" name="cheese" id="nocheese" value="No Cheese">
+    No Cheese
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input class="cheese" type="radio" name="cheese" id="cheese" value="Regular Cheese" checked>
+    Regular Cheese
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input class="cheese" type="radio" name="cheese" id="excheese" value="Extra Cheese">
+    Extra Cheese +$3.00
+  </label>
+</div>
+</div>
+</div>
+    <!----------------------  Crust ------------------>
+  
+  <br><br>
+  
+ <h3  style="color:white; margin-left:1em;">Crust</h3>
+ <div class="Crust">
+ <div class="flex-container3">
+ <div class="form-check">
+  <label class="form-check-label">
+    <input class="crust" type="radio" name="crust" id="plain" value="Plain Crust" checked>
+    Plain Crust
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input class="crust" type="radio" name="crust" id="garlic" value="Garlic Butter Crust">
+    Garlic Butter Crust
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input class="crust" type="radio" name="crust" id="cheesestuff" value="Cheese Stuffed Crust">
+    Cheese Stuffed Crust +$3.00
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input class="crust" type="radio" name="crust" id="spicy" value="Spicy Crust">
+    Spicy Crust
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input class="crust" type="radio" name="crust" id="special" value="House Special Crust">
+    House Special Crust
+  </label>
+</div>
+</div>
+</div>
+  
+  
+  <!----------------------- Sause --------------------->
+  
+  
+  <h3  style="color:white; margin-left:1em;">Sauce</h3>
+ <div class="Sauce">
+ <div class="flex-container5">
+<div class="form-check">
+  <label class="form-check-label">
+    <input class="sauce" type="radio" name="sauce" id="marinarasauce" value="Marinara Sauce" checked>
+   Marinara
+  </label>
+</div><div class="form-check">
+  <label class="form-check-label">
+    <input class="sauce" type="radio" name="sauce" id="whitesauce" value="White Sauce">
+   White Sauce
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input class="sauce" type="radio" name="sauce" id="bbqsauce" value="Barbeque Sauce">
+    Barbeque Sauce
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input class="sauce" type="radio" name="sauce" id="nosauce" value="No Sauce">
+    No Sauce
+  </label>
+</div>
+</div>
+</div>
+  
+  
+  
+  
+  
+  <!----------------------  Veggies ------------------>
+ 
+ <br><br>
+ 
+ <h3  style="color:white; margin-left:1em;">Veggies</h3>
+ <div class="veggie">
+ <p style="color:white; margin-left:1.75em;"> First choice complimentary, than add $1 per choice </p>
+ <div class="flex-container4">
+ <div class="form-check">
+  <label class="form-check-label">
+    <input class="veggie" type="checkbox" id="tomato" value="Tomatos">
+    Tomatos
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input class="veggie" type="checkbox" id="onion" value="Onions">
+    Onions
+  </label>
+</div>
+  <div class="form-check">
+  <label class="form-check-label">
+    <input class="veggie" type="checkbox" id="olive" value="Olives">
+    Olives
+  </label>
+</div>
+ <div class="form-check">
+  <label class="form-check-label">
+    <input class="veggie" type="checkbox" id="pepper" value="Green Peppers">
+    Green Peppers
+  </label>
+</div>
+ <div class="form-check">
+  <label class="form-check-label">
+    <input class="veggie" type="checkbox" id="mushroom" value="Mushroom">
+    Mushroom
+  </label>
+</div>
+ <div class="form-check">
+  <label class="form-check-label">
+    <input class="veggie" type="checkbox" id="pineapple" value="Pineapple">
+    Pineapple
+  </label>
+</div>
+ <div class="form-check">
+  <label class="form-check-label">
+    <input class="veggie" type="checkbox" id="spinach" value="Spinach">
+    Spinach
+  </label>
+</div>
+  <div class="form-check">
+  <label class="form-check-label">
+    <input class="veggie" type="checkbox" id="jalapeno" value="Jalapeno">
+    Jalapeno
+  </label>
+</div>
+ </div>
+ </div>
+ 
+ 
+ 
+
+<!-- Button trigger modal -->
+<button type="button" onclick="getReceipt()" class="btn btn-success btn-block" data-toggle="modal" data-target="#exampleModalLong">
+  Place Order!
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Final Order</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+		<div id="cart">
+			<table class="table">
+				<thead>
+				<tr>
+					<th scope="col">You Ordered</th>
+					<th scope="col">Price</th>
+				</tr>
+				</thead>
+			<tbody> 
+			<tr>
+					
+					<td id="finalsize"></td>
+					<td id="sizeprice"></td>
+				</tr>
+				<tr>
+					<td id="selectmeat" placeholder="None Selected"></td>
+					<td id="meatprice"></td>
+					
+				</tr>
+				<tr>
+					<td id="selectCheese"></td>
+					<td id="cheesePrice"></td>
+				</tr>
+				<tr>
+					<td id="selectCrust"></td>
+					<td id="crustPrice"></td>
+				</tr>
+				<tr>
+					<td id="selectSauce"></td>
+					<td id="saucePrice"></td>
+				</tr>
+				<tr>
+					<td id="selectVeggies"></td>
+					<td id="veggiePrice"></td>
+				</tr>
+				<tr>
+					<td><h3>Total Price:</h3></td>
+					<td id="FinalPrice"></td>
+				</tr>
+			</tbody>
+			</table>
+			
+			<div id="showText"></div>
+			<div id="totalPrice"></div>
+		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Go Back</button>
+        <button type="button" class="btn btn-primary">Order Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+   <script src="C:\Users\avel isupov\Desktop\JavaScript.js"></script>
+ 
+ </body>
+</html>
